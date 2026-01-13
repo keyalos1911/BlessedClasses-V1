@@ -237,13 +237,13 @@
 			"armorWalkSpeedAffectedness": -0.3
 		}
 	},
-	{ 
+	{
 		"code": "greenshadow",
 		"type": "positive",
 		"attributes": {
 			"forageDropRate": 0.4,
 			"animalSeekingRange": -0.45
-		},
+		}
 	},
 	{
 		"code": "servosympathy",
