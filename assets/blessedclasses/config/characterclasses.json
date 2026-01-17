@@ -1,0 +1,357 @@
+[
+  {
+	"enabled": true,
+    "code": "lordoftheclay",
+	"traits": [
+		"frugalforming",
+		"fasting",
+		"scavengerblessed",
+		"squeamish",
+		"petraphobia",
+		"fearful"
+	],
+	"gear": [
+    	{ "type": "item", "code": "game:clothes-shoulder-artisans-scarf" },
+		{ "type": "item", "code": "game:clothes-upperbody-hunter-shirt" },
+		{ "type": "item", "code": "game:clothes-lowerbody-workmans-gown" },
+		{ "type": "item", "code": "game:clothes-foot-marketeer" },
+		{ "type": "item", "code": "game:clothes-hand-scribe" },
+		{ "type": "item", "code": "game:clothes-upperbodyover-cobalt-mantle" }
+	]
+  },
+  {
+	"enabled": false,
+    "code": "lordofwar",
+	"traits": [
+		"soldierblessed",
+		"hardyblessed",
+		"manatarms",
+		"ravenous",
+		"heavyfooted",
+		"heavyhanded"
+	],
+	"gear": [
+		{ "type": "item", "code": "game:clothes-upperbody-blackguard-shirt" },
+		{ "type": "item", "code": "game:clothes-lowerbody-blackguard-leggings" },
+		{ "type": "item", "code": "game:clothes-foot-blackguard-shoes" },
+		{ "type": "item", "code": "game:clothes-emblem-blackguard-pin" },
+		{ "type": "item", "code": "game:clothes-waist-blackguard-belt" }
+	]
+  },
+  {
+	"enabled": true,
+    "code": "lordofinvention",
+	"traits": [
+		"tinkerer",
+		"locustlover",
+		"technicalblessed",
+		"stonebreaker",
+		"slow",
+		"civilblessed",
+		"frailblessed"
+	],
+	"gear": [
+		{ "type": "item", "code": "game:clothes-shoulder-clockmaker-apron" },
+		{ "type": "item", "code": "game:clothes-upperbody-clockmaker-shirt" },
+		{ "type": "item", "code": "game:clothes-upperbodyover-clockmaker-tunic" },
+		{ "type": "item", "code": "game:clothes-lowerbody-clockmaker-pants" },
+		{ "type": "item", "code": "game:clothes-foot-clockmaker-shoes" },
+		{ "type": "item", "code": "game:clothes-waist-clockmaker-belt" },
+		{ "type": "item", "code": "game:clothes-hand-clockmaker-wristguard" },
+		{ "type": "item", "code": "game:clothes-face-glasses-clockmaker" }
+	]
+  },
+  {
+	"enabled": true,
+    "code": "lordofthecommons",
+	"traits": [
+		"fasting",
+		"hardyblessed"
+	],
+	"gear": [
+		{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" },
+		{ "type": "item", "code": "game:clothes-upperbodyover-commoner-coat" },
+		{ "type": "item", "code": "game:clothes-lowerbody-commoner-trousers" },
+		{ "type": "item", "code": "game:clothes-foot-commoner-boots" },
+		{ "type": "item", "code": "game:clothes-hand-commoner-gloves" }
+	]
+  },
+  {
+	"enabled": false,
+    "code": "lordofexplorers",
+	"traits": [
+		"powerfullegs",
+		"greenshadow",
+		"hardyblessed",
+		"sluggish",
+		"squeamish",
+		"petraphobia",
+		"fearful"
+	],
+	"gear": [
+		{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" },
+		{ "type": "item", "code": "game:clothes-upperbodyover-commoner-coat" },
+		{ "type": "item", "code": "game:clothes-lowerbody-commoner-trousers" },
+		{ "type": "item", "code": "game:clothes-foot-commoner-boots" },
+		{ "type": "item", "code": "game:clothes-hand-commoner-gloves" }
+	]
+  },
+  {
+	"enabled": true,
+    "code": "lordoftheland",
+	"traits": [
+		"farmer",
+		"butcher",
+		"gatherer",
+		"petraphobia",
+		"claustrophobicblessed"
+	],
+	"gear": [
+		{ "type": "item", "code": "game:clothes-head-straw-hat" },
+		{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" },
+		{ "type": "item", "code": "game:clothes-lowerbody-workmans-gown" },
+		{ "type": "item", "code": "game:clothes-foot-worn-leather-boots" },
+		{ "type": "item", "code": "game:clothes-hand-heavy-leather-gloves" },
+		{ "type": "item", "code": "game:clothes-waist-linen-rope" },
+		{ "type": "item", "code": "game:clothes-upperbodyover-commoner-coat" }
+	]
+  },
+  {
+	"enabled": true,
+    "code": "lordofthehunt",
+	"traits": [
+		"bowyer",
+		"sharpeye",
+		"sneaky",
+		"resourcefulblessed",
+		"farsightedblessed",
+		"petraphobia",
+		"claustrophobicblessed"
+	],
+	"gear": [
+		{ "type": "item", "code": "game:clothes-head-hunter-cape" },
+		{ "type": "item", "code": "game:clothes-shoulder-hunter-poncho" },
+		{ "type": "item", "code": "game:clothes-upperbody-hunter-shirt" },
+		{ "type": "item", "code": "game:clothes-upperbodyover-hunter-coat" },
+		{ "type": "item", "code": "game:clothes-lowerbody-hunter-leggings" },
+		{ "type": "item", "code": "game:clothes-foot-hunter-boots" },
+		{ "type": "item", "code": "game:clothes-face-hunter-mask" },
+		{ "type": "item", "code": "game:clothes-hand-hunter-gloves" },
+		{ "type": "item", "code": "game:clothes-waist-peasant-strap" }
+	]
+  },
+  {
+	"enabled": true,
+    "code": "lordoftheforest",
+	"traits": [
+		"carpenter",
+		"forester",
+		"burner",
+		"hardyblessed",
+		"bellshocked",
+		"squeamish",
+		"petraphobia"
+	],
+	"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-reindeer-herder-collared-shirt" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-clockmaker-tunic" },
+			{ "type": "item", "code": "game:clothes-lowerbody-commoner-trousers" },
+			{ "type": "item", "code": "game:clothes-foot-worn-leather-boots" },
+			{ "type": "item", "code": "game:clothes-neck-acorn-amulet" },
+			{ "type": "item", "code": "game:clothes-hand-hunter-gloves" },
+			{ "type": "item", "code": "game:clothes-waist-peasant-strap" }
+	]
+  },
+  {
+	"enabled": true,
+    "code": "lordoftheruins",
+	"traits": [
+		"improviser",
+		"scrounger",
+		"silvertongue",
+		"specialstock",
+		"stickyfingers",
+		"fleetfootedblessed",
+		"weakblessed",
+		"fearful",
+		"squeamish",
+		"sluggish"
+	],
+	"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-malefactor-shirt" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-malefactor-tunic" },
+			{ "type": "item", "code": "game:clothes-shoulder-malefactor-cloak" },
+			{ "type": "item", "code": "game:clothes-lowerbody-malefactor-trousers" },
+			{ "type": "item", "code": "game:clothes-foot-malefactor-boots" },
+			{ "type": "item", "code": "game:clothes-neck-malefactor-pendant" },
+			{ "type": "item", "code": "game:clothes-face-malefactor-mask" },
+			{ "type": "item", "code": "game:clothes-hand-malefactor-gloves" },
+			{ "type": "item", "code": "game:clothes-waist-malefactor-sash" }
+	]
+  },
+  {
+	"enabled": true,
+    "code": "lordofthewilds",
+	"traits": [
+		"rockhound",
+		"greenshadow",
+		"powerfullegs",
+		"logger",
+		"dread",
+		"frailblessed",
+		"fearful"
+	],
+	"gear": [
+			{ "type": "item", "code": "game:clothes-shoulder-jord-robe" },
+			{ "type": "item", "code": "game:clothes-upperbody-shepherd-tunic" },
+			{ "type": "item", "code": "game:clothes-lowerbody-shepherd-pants" },
+			{ "type": "item", "code": "game:clothes-foot-soldier-boots" },
+			{ "type": "item", "code": "game:clothes-face-survivor" },
+			{ "type": "item", "code": "game:clothes-hand-survivor" },
+			{ "type": "item", "code": "game:clothes-waist-sturdy-belt" }
+	]
+  },
+	{
+	"enabled": true,
+    "code": "lordofnature",
+	"traits": [
+		"herbalist",
+		"quick",
+		"frugivore",
+		"furtiveblessed",
+		"squeamish",
+		"petraphobia",
+		"bellshocked"
+		
+	],
+	"gear": [
+			{ "type": "item", "code": "game:clothes-shoulder-jord-robe" },
+			{ "type": "item", "code": "game:clothes-upperbody-shepherd-tunic" },
+			{ "type": "item", "code": "game:clothes-lowerbody-shepherd-pants" },
+			{ "type": "item", "code": "game:clothes-foot-soldier-boots" },
+			{ "type": "item", "code": "game:clothes-face-survivor" },
+			{ "type": "item", "code": "game:clothes-hand-survivor" },
+			{ "type": "item", "code": "game:clothes-waist-sturdy-belt" }
+	]
+  },
+  {
+	"enabled": true,
+    "code": "lordofthedeep",
+	"traits": [
+		"shelteredstone",
+		"miner",
+		"rustbane",
+		"defender",
+		"hardyblessed",
+		"civilblessed",
+		"heavyfooted",
+		"nearsightedblessed",
+		"agoraphobia"
+	],
+	"gear": [
+			{ "type": "Item", "code": "game:clothes-shoulder-miner" },
+			{ "type": "Item", "code": "game:clothes-upperbody-miner" },
+			{ "type": "Item", "code": "game:clothes-upperbodyover-miner" },
+			{ "type": "Item", "code": "game:clothes-lowerbody-miner" },
+			{ "type": "Item", "code": "game:clothes-foot-miner" },
+			{ "type": "Item", "code": "game:clothes-face-miner" },
+			{ "type": "Item", "code": "game:clothes-hand-miner" },
+			{ "type": "Item", "code": "game:clothes-waist-miner" }
+	]
+  },
+  {
+	"enabled": false,
+    "code": "lordoftheforge",
+	"traits": [
+		"smith",
+		"dragonskin",
+		"recycler",
+		"stonebreaker",
+		"burner",
+		"defender",
+		"heavyfooted",
+		"heavyhanded",
+		"glutton"
+	],
+	"gear": [
+			{ "type": "item", "code": "game:clothes-shoulder-blacksmith-apron" },
+			{ "type": "item", "code": "game:clothes-upperbody-clockmaker-shirt" },
+			{ "type": "item", "code": "game:clothes-lowerbody-malefactor-trousers" },
+			{ "type": "item", "code": "game:clothes-foot-soldier-boots" },
+			{ "type": "item", "code": "game:clothes-hand-heavy-leather-gloves" },
+			{ "type": "item", "code": "game:clothes-arm-leather-bracers" },
+			{ "type": "item", "code": "game:clothes-waist-sturdy-leather-belt" }
+	]
+  },
+  {
+	"enabled": true,
+    "code": "lordofthefeast",
+	"traits": [
+		"gourmand",
+		"storageexpert",
+		"butcher",
+		"manatarms",
+		"scrounger",
+		"sluggish",
+		"frailblessed",
+		"cowardly"
+	],
+	"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-commoner-coat" },
+			{ "type": "item", "code": "game:clothes-lowerbody-commoner-trousers" },
+			{ "type": "item", "code": "game:clothes-foot-commoner-boots" },
+			{ "type": "item", "code": "game:clothes-hand-commoner-gloves" }
+	]
+  },
+  {
+	"enabled": true,
+    "code": "lordofdeath",
+	"traits": [
+		"dreadslayer",
+		"merciless",
+		"soldierblessed",
+		"manatarms",
+		"hardyblessed",
+		"glutton",
+		"heavyhanded",
+		"petraphobia",
+		"civilblessed",
+		"heavyfooted",
+		"slow"
+	],
+	"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-commoner-coat" },
+			{ "type": "item", "code": "game:clothes-lowerbody-commoner-trousers" },
+			{ "type": "item", "code": "game:clothes-foot-commoner-boots" },
+			{ "type": "item", "code": "game:clothes-hand-commoner-gloves" }
+	]
+  },
+  {
+	"enabled": true,
+    "code": "lordofthecloth",
+	"traits": [
+		"clothier",
+		"tallowtanner",
+		"fasting",
+		"masquemonger",
+		"unlikelyharvest",
+		"fibrousfolly",
+		"weakblessed",
+		"fearful",
+		"petraphobia",
+		"sluggish"
+	],
+	"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-tailor-blouse" },
+			{ "type": "item", "code": "game:clothes-lowerbody-tailor-trousers" },
+			{ "type": "item", "code": "game:clothes-foot-tailor-shoes" },
+			{ "type": "item", "code": "game:clothes-hand-tailor-gloves" },
+			{ "type": "item", "code": "game:clothes-waist-tailor-belt" },
+			{ "type": "item", "code": "game:clothes-arm-tailor-needlepuff" },
+			{ "type": "item", "code": "game:clothes-face-tailor-mask" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-tailor-jacket" }
+	]
+  }
+]

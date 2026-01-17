@@ -1,0 +1,568 @@
+[
+	{
+		"ingredientPattern": "AWS",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:axe-*",
+				"isTool": true
+			},
+			"W": {
+				"type": "block",
+				"code": "game:log-*"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:log-*"
+			}
+		},
+		"width": 3,
+		"height": 1,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "game:firewood",
+			"quantity": 12
+		}
+	},
+	{
+		"ingredientPattern": "AWS",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:axe-*",
+				"isTool": true
+			},
+			"W": {
+				"type": "block",
+				"code": "game:logsection-placed-*-ne-ud"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:logsection-placed-*-ne-ud"
+			}
+		},
+		"width": 3,
+		"height": 1,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "game:firewood",
+			"quantity": 12
+		}
+	},
+	{
+		"ingredientPattern": "WS",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"W": {
+				"type": "item",
+				"code": "game:firewood"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:resin"
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 2,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:agedfirewood",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "AW",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:axe-*",
+				"isTool": true
+			},
+			"W": {
+				"type": "item",
+				"code": "game:firewood",
+				"quantity": 2
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "game:stick",
+			"quantity": 8
+		}
+	},
+	{
+		"ingredientPattern": "ALL",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"L": {
+				"type": "block",
+				"code": "game:log-placed-*-ud",
+				"allowedVariants": [
+					"aged",
+					"birch",
+					"oak",
+					"maple",
+					"pine",
+					"acacia",
+					"kapok",
+					"redwood",
+					"larch",
+					"baldcypress",
+					"walnut",
+					"ebony",
+					"purpleheart"
+				],
+				"name": "wood"
+			}
+		},
+		"width": 3,
+		"height": 1,
+		"recipeGroup": 3,
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "game:plank-{wood}",
+			"quantity": 32
+		}
+	},
+	{
+		"ingredientPattern": "ALL",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"L": {
+				"type": "block",
+				"code": "game:logsection-placed-*-ne-ud",
+				"allowedVariants": [
+					"aged",
+					"birch",
+					"oak",
+					"maple",
+					"pine",
+					"acacia",
+					"kapok",
+					"redwood",
+					"larch",
+					"baldcypress",
+					"walnut",
+					"ebony",
+					"purpleheart"
+				],
+				"name": "wood"
+			}
+		},
+		"width": 3,
+		"height": 1,
+		"recipeGroup": 3,
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "game:plank-{wood}",
+			"quantity": 32
+		}
+	},
+	{
+		"ingredientPattern": "PYP,YTY,PYP",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:stick"
+			},
+			"Y": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"T": {
+				"type": "item",
+				"code": "game:candle"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:paperlantern-on",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "P",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"P": {
+				"type": "block",
+				"code": "game:paperlantern-on"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "game:paperlantern-off",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "P",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"P": {
+				"type": "block",
+				"code": "game:paperlantern-off"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "game:paperlantern-on",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "_P_,PYP,_P_",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 4
+			},
+			"Y": {
+				"type": "item",
+				"code": "game:metalplate-molybdochalkos"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:wagonwheels-spoked-west",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "_PW,PYP,WP_",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 4
+			},
+			"Y": {
+				"type": "item",
+				"code": "game:metalplate-molybdochalkos"
+			},
+			"W": {
+				"type": "block",
+				"code": "game:log-*"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:wagonwheels-spoked-longaxle-west",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "_PW,PYP,WP_",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 4
+			},
+			"Y": {
+				"type": "item",
+				"code": "game:metalplate-molybdochalkos"
+			},
+			"W": {
+				"type": "block",
+				"code": "game:logsection-*"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:wagonwheels-spoked-longaxle-west",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "_P_,PYP,_P_",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:plank-*",
+				"quantity": 4
+			},
+			"Y": {
+				"type": "item",
+				"code": "game:metalplate-molybdochalkos"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:wagonwheels-solid-west",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "_PW,PYP,WP_",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:plank-*",
+				"quantity": 4
+			},
+			"Y": {
+				"type": "item",
+				"code": "game:metalplate-molybdochalkos"
+			},
+			"W": {
+				"type": "block",
+				"code": "game:log-*"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:wagonwheels-solid-longaxle-west",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "_PW,PYP,WP_",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:plank-*",
+				"quantity": 4
+			},
+			"Y": {
+				"type": "item",
+				"code": "game:metalplate-molybdochalkos"
+			},
+			"W": {
+				"type": "block",
+				"code": "game:logsection-*"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:wagonwheels-solid-longaxle-west",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "SRW,L__",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"R": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 3
+			},
+			"S": {
+				"type": "item",
+				"code": "game:salt",
+				"quantity": 6
+			},
+			"L": {
+				"type": "block",
+				"code": "game:log-placed-*-ud",
+				"allowedVariants": [
+					"aged",
+					"birch",
+					"oak",
+					"maple",
+					"pine",
+					"acacia",
+					"kapok",
+					"redwood",
+					"larch",
+					"baldcypress",
+					"walnut",
+					"ebony",
+					"purpleheart"
+				],
+				"quantity": 4
+			},
+			"W": {
+				"type": "block",
+				"code": "game:woodbucket"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "saltwaterportion"
+				},
+				"requiresLitres": 1
+			}
+		},
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "game:log-placed-aged-ud",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "SPG",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true,
+				"toolDurabilityCost": 5
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plank-aged",
+				"quantity": 5
+			},
+			"G": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-gold",
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 1,
+		"recipeGroup": 2,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "game:chest-east",
+			"attributes": {
+				"type": "golden"
+			},
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "SPG",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true,
+				"toolDurabilityCost": 5
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plank-aged",
+				"quantity": 5
+			},
+			"G": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 1,
+		"recipeGroup": 2,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "game:chest-east",
+			"attributes": {
+				"type": "owl"
+			},
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "PP_,PP_,PPS",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true,
+				"toolDurabilityCost": 5
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plank-*",
+				"allowedVariants": [
+					"aged",
+					"birch",
+					"oak",
+					"maple",
+					"pine",
+					"acacia",
+					"kapok",
+					"redwood",
+					"larch",
+					"baldcypress",
+					"walnut",
+					"ebony",
+					"purpleheart"
+				],
+				"name": "wood"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "game:door-sleek-windowed-{wood}",
+			"quantity": 1
+		}
+	}
+]

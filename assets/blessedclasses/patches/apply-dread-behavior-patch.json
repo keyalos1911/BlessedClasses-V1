@@ -1,0 +1,20 @@
+﻿[
+    {
+        "file": "game:entities/lore/drifter.json",
+        "op": "addeach",
+        "path": "/server/behaviors/-",
+        "value": [ { "code": "EntityBehaviorDread" } ]
+    },
+	{
+        "file": "game:entities/lore/bowtorn.json",
+        "op": "addeach",
+        "path": "/server/behaviors/-",
+        "value": [ { "code": "EntityBehaviorDread" } ]
+    },
+	{
+        "file": "game:entities/lore/shiver.json",
+        "op": "addeach",
+        "path": "/server/behaviors/-",
+        "value": [ { "code": "EntityBehaviorDread" } ]
+    }
+]

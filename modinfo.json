@@ -1,13 +1,15 @@
 {
-    "type": "content",
-    "modid": "blessedclasses",
-    "name": "BlessedClasses",
-    "authors": [
-        "BlessedOne"
-    ],
-    "description": "A Test mod to overhaul the vanilla traits to be more powerful.",
-    "version": "1.2.1",
-    "dependencies": {
-        "game": "1.21.6"
+    "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+     "type": "Code",
+  "modid": "blessedclasses",
+  "name": "Blessed Classes",
+  "authors": [
+    "Blessed One", "Popeline"
+  ],
+  "description": "A class overhaul to promote interdependence.",
+  "version": "1.0.2",
+  "dependencies": {
+    "game": "1.21.6"
+
     }
 }

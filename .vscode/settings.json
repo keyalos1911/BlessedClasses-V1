@@ -1,0 +1,6 @@
+{
+    "dotnet.defaultSolution": "BlessedClasses.sln",
+    "files.associations": {
+        "*.log": "log"
+    }
+}
