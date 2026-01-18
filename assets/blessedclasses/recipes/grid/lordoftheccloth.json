@@ -7,7 +7,7 @@
 			"P": {
 				"type": "item",
 				"code": "game:hide-pelt-small",
-				"quantity": 2
+				"quantity": 1
 			},
 			"H": {
 				"type": "item",
@@ -33,7 +33,7 @@
 			"P": {
 				"type": "item",
 				"code": "game:hide-pelt-medium",
-				"quantity": 2
+				"quantity": 1
 			},
 			"H": {
 				"type": "item",
@@ -59,7 +59,7 @@
 			"P": {
 				"type": "item",
 				"code": "game:hide-pelt-large",
-				"quantity": 2
+				"quantity": 1
 			},
 			"H": {
 				"type": "item",
@@ -85,7 +85,7 @@
 			"P": {
 				"type": "item",
 				"code": "game:hide-pelt-huge",
-				"quantity": 2
+				"quantity": 1
 			},
 			"H": {
 				"type": "item",

@@ -24,7 +24,7 @@
 		"output": {
 			"type": "item",
 			"code": "game:firewood",
-			"quantity": 12
+			"quantity": 16
 		}
 	},
 	{
@@ -52,7 +52,7 @@
 		"output": {
 			"type": "item",
 			"code": "game:firewood",
-			"quantity": 12
+			"quantity": 16
 		}
 	},
 	{
@@ -100,7 +100,7 @@
 		"output": {
 			"type": "item",
 			"code": "game:stick",
-			"quantity": 8
+			"quantity": 16
 		}
 	},
 	{

@@ -31,7 +31,6 @@ namespace BlessedClasses.src
         public static Harmony harmony;
 
         public const string ClayformingPatchesCategory = "BlessedClassesClayformingPatchesCatagory";
-        public const string WearableLightsPatchesCategory = "BlessedClassesWearableLightsPatchesCategory";
         public const string SilverTonguePatchesCategory = "BlessedClassesSilverTonguePatchCategory";
         public const string SpecialStockPatchesCategory = "BlessedClassesSpecialStockPatchesCategory";
         //public const string LordoftheFeastRosinPatchCategory = "BlessedClassesLordoftheFeastRosinPatchCategory";
@@ -45,10 +44,18 @@ namespace BlessedClasses.src
         public static ICoreServerAPI SApi;
         public static ILogger Logger;
         public static string ModID;
-
         public const string FlaxRateStat = "flaxFiberChance";
         public const string BonusClayVoxelsStat = "clayformingPoints";
 
+        public override void StartPre(ICoreAPI api) {
+            Api = api;
+            Logger = Mod.Logger;
+            ModID = Mod.Info.ModID;
+
+            // Initialize diagnostic systems
+            DiagnosticLogger.Initialize(api, Logger);
+            //MeshDiagnostics.Initialize(api);
+}
         public override void Start(ICoreAPI api)
         {
             api.RegisterCollectibleBehaviorClass("HealHackedBehavior", typeof(HealHackedLocustsBehavior));
@@ -103,7 +110,7 @@ namespace BlessedClasses.src
         {
             try
             {
-                if (player?.Entity == null) return;
+                if (player.Entity == null) return;
 
                 string currentClass = player.Entity.WatchedAttributes.GetString("characterClass");
                 if (string.IsNullOrEmpty(currentClass)) return;
@@ -127,7 +134,7 @@ namespace BlessedClasses.src
             }
             catch (Exception ex)
             {
-                Logger?.Error("[BlessedClasses] REPORT THIS! Error during player class migration: {0}", ex.Message);
+                Logger.Error("[BlessedClasses] REPORT THIS! Error during player class migration: {0}", ex.Message);
             }
         }
 
@@ -148,7 +155,6 @@ namespace BlessedClasses.src
             harmony = new Harmony(ModID);
             Logger.VerboseDebug("Harmony is starting Patches!");
             harmony.PatchCategory(ClayformingPatchesCategory);
-            harmony.PatchCategory(WearableLightsPatchesCategory);
             harmony.PatchCategory(SilverTonguePatchesCategory);
             harmony.PatchCategory(SpecialStockPatchesCategory);
             //harmony.PatchCategory(ChefRosinPatchCategory);
@@ -177,8 +183,8 @@ namespace BlessedClasses.src
 
         private static void HarmonyUnpatch()
         {
-            Logger?.VerboseDebug("Unpatching Harmony Patches.");
-            harmony?.UnpatchAll(ModID);
+            Logger.VerboseDebug("Unpatching Harmony Patches.");
+            harmony.UnpatchAll(ModID);
             harmony = null;
         }
 

@@ -5,7 +5,7 @@
 	"traits": [
 		"frugalforming",
 		"fasting",
-		"scavengerblessed",
+		"keeneye",
 		"squeamish",
 		"petraphobia",
 		"fearful"
@@ -66,7 +66,8 @@
     "code": "lordofthecommons",
 	"traits": [
 		"fasting",
-		"hardyblessed"
+		"hardyblessed",
+		"resistant"
 	],
 	"gear": [
 		{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" },

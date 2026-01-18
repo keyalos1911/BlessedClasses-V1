@@ -7,7 +7,7 @@
     "Blessed One", "Popeline"
   ],
   "description": "A class overhaul to promote interdependence.",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "dependencies": {
     "game": "1.21.6"
 

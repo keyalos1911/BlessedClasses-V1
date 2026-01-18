@@ -142,7 +142,7 @@
 		}
 	},
 	{
-		"code": "scavengerblessed",
+		"code": "keeneye",
 		"type": "positive",
 		"attributes": {
 			"wildCropDropRate": 0.35,
@@ -163,7 +163,19 @@
 		"attributes": {
 			"meleeWeaponsDamage": 0.50,
 			"armorDurabilityLoss": -0.5,
-			"armorWalkSpeedAffectedness": -0.75
+			"armorWalkSpeedAffectedness": -0.75,
+			"slashingDamageFactor": -0.3,
+			"piercingDamageFactor": -0.3,
+			"bluntDamageFactor": -0.3
+		}
+		},
+		{
+		"code": "resistant",
+		"type": "positive",
+		"attributes": {
+			"slashingDamageFactor": -0.3,
+			"piercingDamageFactor": -0.3,
+			"bluntDamageFactor": -0.3
 		}
 	},
 	{

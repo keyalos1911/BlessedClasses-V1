@@ -26,7 +26,7 @@ namespace BlessedClasses.src.EntityBehaviors {
         protected const double ShelteredByStoneGainVelocity = 0.002;
         protected const int SunLightLevelForInCave = 5;
 
-        public const string ClaustrophobicCode = "claustrophobicgloo";
+        public const string ClaustrophobicCode = "claustrophobicblessed";
         public const string AgoraphobiaCode = "agoraphobia";
         public const string ShelteredByStoneCode = "shelteredstone";
 
