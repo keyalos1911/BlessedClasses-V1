@@ -7,7 +7,8 @@ using Vintagestory.API.Common;
 using Vintagestory.API.MathTools;
 using Vintagestory.GameContent;
 
-namespace blessedclasses.src.Patches {
+namespace BlessedClasses.src.Blocks
+{
 
     public class BlockCarvedCrock : BlockCrock {
 
