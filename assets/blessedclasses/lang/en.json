@@ -4,6 +4,7 @@
 	"itemdesc-rosin": "<font color=\"#99c9f9\"><i>When used, increases the shelf life of the carved crock by 50% more than the base crock's sealing</i></font>",
 
 	"block-metalpan-copper": "Copper pan",
+	"item-miningbagsturdyreinforced": "Miner's Pack",
 	"block-metalmininglantern-*": "Mining lantern",
 	"block-primitivemininglantern-*": "Simple mining lantern",
 	"block-metalpot-copper-empty": "Copper Cooking Pot",
@@ -36,8 +37,10 @@
 	"block-metalpotdirty-silver-empty": "Dirty Silver Cooking Pot",
 	"block-metalpotdirty-electrum-empty": "Dirty Electrum Cooking Pot",
 	"block-metalpotdirty-steel-empty": "Dirty Steel Cooking Pot",
+	
 	"game:blockhelp-crock-sealwithrosin": "Seal with rosin for enhanced preservation",
-	"blockdesc-metalpan-copper": "A proper prospectors pan, can find minerals and has an increased chance to find nuggets",
+	
+	"blockdesc-metalpan-copper": "A proper pan, can find minerals and has an increased chance to find nuggets",
 	"blockdesc-metalpot-copper-empty": "<font color=\"#99c9f9\"><i>Can hold 7 servings</i></font>",
 	"blockdesc-metalpot-tinbronze-empty": "<font color=\"#99c9f9\"><i>Can hold 8 servings</i></font>",
 	"blockdesc-metalpot-bismuthbronze-empty": "<font color=\"#99c9f9\"><i>Can hold 8 servings</i></font>",
