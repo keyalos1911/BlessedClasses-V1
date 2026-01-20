@@ -1,0 +1,75 @@
+[
+
+	{
+		"ingredientPattern": "H,G",
+		"requiresTrait": "recycler",
+		"ingredients": {
+			"G": {
+				"type": "item",
+				"code": "game:gear-rusty"
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 4
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:metalbit-iron",
+			"quantity": 5
+		}
+	},
+	{
+		"ingredientPattern": "H,G",
+		"requiresTrait": "recycler",
+		"ingredients": {
+			"G": {
+				"type": "block",
+				"code": "game:metal-scraps"
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 4
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:metalbit-iron",
+			"quantity": 8
+		}
+	},
+	{
+		"ingredientPattern": "H,G",
+		"requiresTrait": "recycler",
+		"ingredients": {
+			"G": {
+				"type": "block",
+				"code": "game:metal-parts"
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 4
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:metalbit-cupronickel",
+			"quantity": 10
+		}
+	}
+]
