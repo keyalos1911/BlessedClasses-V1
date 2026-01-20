@@ -199,7 +199,7 @@
 	"traitdesc-tallowtanner": "Can recycle unused pelts into <a href=\"handbooksearch://scraped hide\">scraped hides</a>",
 	"traitdesc-smith": "Placeholder",
 	"traitdesc-gourmand": "Exclusive craftable metal cooking pots and carved crocks</a>",
-	"traitdesc-storageexpert": "Exclusive craftable rosin that doubles the longevity of food sealed in refurbished crocks</a>",
+	"traitdesc-storageexpert": "Exclusive craftable rosin that doubles the longevity of food sealed in carved crocks</a>",
 
 	"charattribute-flaxFiberChance-0.25": "+25% chance to get flax fibers from grass",
 	"charattribute-flaxDropRate-2": "+200% flax fibers collected from flax crops",
