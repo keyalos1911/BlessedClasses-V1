@@ -84,7 +84,7 @@
 		"code": "gatherer",
 		"type": "positive",
 		"attributes": {
-			"forageDropRate": 0.75
+			"forageDropRate": 0.25
 		}
 	},
 	{
@@ -173,9 +173,9 @@
 		"code": "resistant",
 		"type": "positive",
 		"attributes": {
-			"slashingDamageFactor": -0.3,
-			"piercingDamageFactor": -0.3,
-			"bluntDamageFactor": -0.3
+			"slashingDamageFactor": -0.2,
+			"piercingDamageFactor": -0.2,
+			"bluntDamageFactor": -0.2
 		}
 	},
 	{

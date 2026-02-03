@@ -1,6 +1,6 @@
 [
   {
-	"enabled": true,
+	"enabled": false,
     "code": "lordoftheclay",
 	"traits": [
 		"frugalforming",
@@ -47,8 +47,10 @@
     "code": "lordofthecommons",
 	"traits": [
 		"fasting",
-		"hardyblessed",
-		"resistant"
+		"rugged",
+		"resistant",
+		"frugalforming",
+		"improviser"
 	],
 	"gear": [
 		{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" },
@@ -108,6 +110,8 @@
 	"traits": [
 		"carpenter",
 		"forester",
+		"frugivore",
+		"herbalist",
 		"burner",
 		"hardyblessed",
 		"bellshocked",
@@ -128,16 +132,14 @@
 	"enabled": true,
     "code": "lordoftheruins",
 	"traits": [
-		"improviser",
 		"scrounger",
 		"silvertongue",
 		"specialstock",
 		"stickyfingers",
 		"fleetfootedblessed",
-		"weakblessed",
-		"fearful",
 		"squeamish",
-		"sluggish"
+		"sluggish",
+		"petraphobia"
 	],
 	"gear": [
 			{ "type": "item", "code": "game:clothes-upperbody-malefactor-shirt" },
@@ -174,7 +176,7 @@
 	]
   },
 	{
-	"enabled": true,
+	"enabled": false,
     "code": "lordofnature",
 	"traits": [
 		"herbalist",
@@ -228,8 +230,6 @@
 		"smith",
 		"dragonskin",
 		"recycler",
-		"stonebreaker",
-		"burner",
 		"defender",
 		"rugged",
 		"dread",
