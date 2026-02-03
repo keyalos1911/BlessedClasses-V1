@@ -21,7 +21,7 @@
 		"output": {
 			"type": "item",
 			"code": "game:metalbit-iron",
-			"quantity": 5
+			"quantity": 2
 		}
 	},
 	{
@@ -45,7 +45,7 @@
 		"output": {
 			"type": "item",
 			"code": "game:metalbit-iron",
-			"quantity": 8
+			"quantity": 6
 		}
 	},
 	{
@@ -69,7 +69,7 @@
 		"output": {
 			"type": "item",
 			"code": "game:metalbit-cupronickel",
-			"quantity": 10
+			"quantity": 5
 		}
 	}
 ]
