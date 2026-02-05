@@ -249,7 +249,7 @@
 	"charattribute-miningSpeedMul--0.5": "-50% скорость добычи",
 	"charattribute-miningSpeedMul--0.35": "-35% скорость добычи",
 	"charattribute-hungerrate--0.3": "-30% скорость голода",
-	"charattribute-hungerrate-0.5": "+50% скорость голода",
+	"charattribute-hungerrate-0.25": "+25% скорость голода",
 	"charattribute-maxhealthExtraPoints--2": "-2 очка здоровья",
 	"charattribute-maxhealthExtraPoints-4": "+4 очка здоровья",
 	"charattribute-maxhealthExtraPoints-8": "+8 очков здоровья",
