@@ -278,6 +278,7 @@
 	"charattribute-meleeWeaponsDamage-0.3": "+30% melee damage",
 	"charattribute-meleeWeaponsDamage-0.5": "+50% melee damage",
 	"charattribute-meleeWeaponsDamage-1.0": "+100% melee damage",
+	"charattribute-meleeWeaponsDamage-1.5": "+150% melee damage",
 	"charattribute-meleeWeaponsDamage--0.25": "-25% melee damage",
 	"charattribute-meleeWeaponsDamage--0.15": "-15% melee damage",
 	"charattribute-meleeWeaponsDamage--0.3": "-30% melee damage",

@@ -161,7 +161,7 @@
 		"code": "soldierblessed",
 		"type": "positive",
 		"attributes": {
-			"meleeWeaponsDamage": 0.50,
+			"meleeWeaponsDamage": 1.50,
 			"armorDurabilityLoss": -0.5,
 			"armorWalkSpeedAffectedness": -0.75,
 			"slashingDamageFactor": -0.3,
