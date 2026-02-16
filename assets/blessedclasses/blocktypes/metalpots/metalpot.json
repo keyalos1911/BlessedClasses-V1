@@ -10,7 +10,7 @@
 	],
 	"classByType": {
 		"metalpot-*-empty": "BlockCookingContainer",
-		"metalpot-*-cooked": "BlockCookedContainer"
+		"metalpot-*-cooked": "BlockMetalPotCooked"
 	},
 	"heldTpIdleAnimation": "holdbothhands",
 	"heldTpUseAnimation": "twohandplaceblock",
