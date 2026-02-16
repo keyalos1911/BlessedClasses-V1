@@ -42,12 +42,19 @@ namespace BlessedClasses.src
         // smith trait constants
         public const string SmithCraftedAttribute = "blessedclasses:smithCrafted";
         public const float SmithDurabilityBonus = 2f; // 100% durability bonus
+
+        // feast pot constants
+        public const string FeastPatchCategory = "BlessedClassesFeastPatchCategory";
+        public const string AttackSpeedPatchCategory = "BlessedClassesAttackSpeedPatchCategory";
+        public const string FeastPotMealAttribute = "blessedclasses:feastPotMeal";
+        public const float FeastPotSatietyBonus = 1.25f;        // meals from metal pots are 25% more filling
+        public const float FeastPotPerishMultiplier = 0.75f;     // meals from metal pots spoil 25% slower
     public override void StartPre(ICoreAPI api) {
     Api = api;
     Logger = Mod.Logger;
     ModID = Mod.Info.ModID;
 
-    // Initialize diagnostic systems
+    // initialize diagnostic systems
     DiagnosticLogger.Initialize(api, Logger);
     //MeshDiagnostics.Initialize(api);
 }
@@ -67,6 +74,7 @@ namespace BlessedClasses.src
             api.RegisterEntityBehaviorClass("EntityBehaviorTemporalTraits", typeof(TemporalStabilityTraitBehavior));
             api.RegisterEntityBehaviorClass("EntityBehaviorDragonskin", typeof(DragonskinTraitBehavior));
             api.RegisterBlockClass("BlockCarvedCrock", typeof(BlockCarvedCrock));
+            api.RegisterBlockClass("BlockMetalPotCooked", typeof(BlockMetalPotCooked));
 
             ApplyPatches();
 
@@ -162,6 +170,8 @@ namespace BlessedClasses.src
             harmony.PatchCategory(DragonskinPatchCategory);
             harmony.PatchCategory(CrockCraftingPatchCategory);
             harmony.PatchCategory(SmithPatchCategory);
+            harmony.PatchCategory(FeastPatchCategory);
+            harmony.PatchCategory(AttackSpeedPatchCategory);
 
             // apply diagnostic patches
             TraitSystemDiagnostics.ApplyTraitSystemPatches(harmony);
