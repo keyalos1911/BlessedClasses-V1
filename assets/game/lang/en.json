@@ -33,7 +33,7 @@
 
 	"trait-scrounger": "<font color=\"#84ff84\">• Scrounger </font>",
 	"trait-slaughterer": "<font color=\"#84ff84\">• Slaughterer </font>",
-	"trait-unarmored": "<font color=\"#84ff84\">• Unarmored </font>",
+	"trait-unarmored": "<font color=\"#ff8484\">• Unarmored </font>",
 	"trait-beserker": "<font color=\"#84ff84\">• Beserker </font>",
 	"trait-gourmand": "<font color=\"#84ff84\">• Gourmand </font>",
 	"trait-storageexpert": "<font color=\"#84ff84\">• Storage Expert </font>",
@@ -277,7 +277,7 @@
 	"charattribute-armorWalkSpeedAffectedness-0.25": "walk speed penalty for wearing armor increased by 25%",
 	"charattribute-meleeWeaponsDamage-0.3": "+30% melee damage",
 	"charattribute-meleeWeaponsDamage-0.5": "+50% melee damage",
-	"charattribute-meleeWeaponsDamage-1.0": "+100% melee damage",
+	"charattribute-meleeWeaponsDamage-1": "+100% melee damage",
 	"charattribute-meleeWeaponsDamage-1.5": "+150% melee damage",
 	"charattribute-meleeWeaponsDamage--0.25": "-25% melee damage",
 	"charattribute-meleeWeaponsDamage--0.15": "-15% melee damage",
